@@ -40,8 +40,6 @@ try {
 			if (strlen($_POST['disease']) < 3) {
 				$errors['disease'] = 'Disease name must be at least 3 characters long.';
 			}
-		} else {
-			$errors['disease'] = 'Please fill in the filed with either disease name or N/A';
 		}
 
 		if (isset($_POST['address']) && !empty($_POST['address'])) {
@@ -252,7 +250,7 @@ $has_errors = !empty($error) || !empty($errors);
 
 												<div class="row">
 													<div class="col-3">
-														<label for="disease">Disease (if any) <span class="text-danger">*</span></label>
+														<label for="disease">Disease (if any)</label>
 													</div>
 													<div class="col-9">
 														<div class="form-group">
