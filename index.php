@@ -1,4 +1,4 @@
-
+<?php session_start(); ?>
 
 <!DOCTYPE html>
 <html>
@@ -36,8 +36,13 @@
 					</div>
 					<div class="col-lg-6">
 						<div class="text-lg-right top-right-bar mt-2 mt-lg-0">
-							<a href="login.php" class="pr-3"><span>Login</span></a>
-							<a href="register.php" class="pr-3"><span>Register</span></a>
+							<?php if (isset($_SESSION['id']) && !empty($_SESSION['id'])) : ?>
+								<a href="admin/profile.php" class="pr-3"><span>Welcome <?= ucwords($_SESSION['name']) ?>!</span></a>
+								<a href="logout.php" class="pr-3"><span>Logout</span></a>
+							<?php else : ?>
+								<a href="login.php" class="pr-3"><span>Login</span></a>
+								<a href="register.php" class="pr-3"><span>Register</span></a>
+							<?php endif; ?>
 						</div>
 					</div>
 				</div>
