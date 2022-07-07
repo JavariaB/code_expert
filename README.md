@@ -16,15 +16,15 @@ TEAM NAME: 'CodeExpert'
 	- Hashed password is stored in DB for security purpose
 
 - Technical Architecture:
-	For front end:
-		• HTML 5
-		• Bootstrap 5
-		• CSS 3
-		• Java Script
-		• Json
-	For back end:
-		• PHP
-		• MySQL
+	- For front end:
+		- HTML 5
+		- Bootstrap 5
+		- CSS 3
+		- Java Script
+		- Json
+	- For back end:
+		- PHP
+		- MySQL
 
 - Manual guide to run it on your own localhost
 	- clone repo in C:\xampp\htdocs
