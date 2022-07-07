@@ -5,7 +5,8 @@ TEAM NAME: 'CodeExpert'
 
 - Major features:
 	- login/register
-	- Diet lists (CRUD operative) (pagination added)
+	- User profile and password change (CRUD operative) 
+	- Diet lists (pagination added)
 	- Food alternatives 
 	- Free food vouchers
 
