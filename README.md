@@ -1,4 +1,4 @@
-TEAM NAME: 'CodeExpert'
+FRESH ORGANIC
 
 -Introduction:
 	A user friendly, easy, interactive and secure solution for promoting vegan diet in Pakistan for choronic disease patients.
